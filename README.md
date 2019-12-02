@@ -1,5 +1,14 @@
 # CentOS-Azure-VM-Image
 
+## Installing Packer
+Run the `packersetup.sh` script in `scripts` folder as root
+```shell script
+sudo bash /scripts/packersetup.sh
+```
+Validate the installation by running 
+```shell script
+packer --version
+```
 
 ## Getting Credentials from Azure
 Use the command below. \
