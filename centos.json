@@ -28,7 +28,12 @@
     "ssh_pty": "true",
 
     "location": "West US 2",
-    "vm_size": "Standard_DS2_v2"
+    "vm_size": "Standard_DS2_v2",
+
+    "azure_tags": {
+        "os": "centos"
+    }
+
   }],
   "provisioners": [
     {
