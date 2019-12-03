@@ -2,5 +2,6 @@
   "ARM_CLIENT_ID": "abcdefghijklmnopqrstuvwxyz123456",
   "ARM_CLIENT_SECRET": "abcdefgh-ijklmn-opqrstuvwx-yz123456",
   "subscription_id": "abcdef-ghijklm-nopqrstuv-wxyz12-3456",
-  "tenant_id": "abcdef-ghijk-lmnopqrs-tuvwxyz1-23456"
+  "tenant_id": "abcdef-ghijk-lmnopqrs-tuvwxyz1-23456",
+  "ENV":"prod"
 }

@@ -4,7 +4,8 @@
     "client_secret": "{{env `ARM_CLIENT_SECRET`}}",
     "subscription_id": "{{env `ARM_SUBSCRIPTION_ID`}}",
     "tenant_id": "{{env `ARM_TENANT_ID`}}",
-    "ssh_user": "centos"
+    "ssh_user": "centos",
+    "env": ""
   },
   "builders": [{
     "type": "azure-arm",
@@ -14,7 +15,7 @@
     "subscription_id": "{{user `subscription_id`}}",
     "tenant_id": "{{user `tenant_id`}}",
 
-    "managed_image_resource_group_name": "defaultResourceGroup",
+    "managed_image_resource_group_name": "{{user `env`}}-resources",
     "managed_image_name": "centos_image_{{timestamp}}",
 
     "ssh_username": "{{user `ssh_user`}}",
